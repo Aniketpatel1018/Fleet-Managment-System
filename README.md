@@ -56,3 +56,50 @@ Ensure the following are installed on your system:
 ```bash
 git clone https://github.com/yourusername/fleman.git
 cd fleman
+
+
+
+🔙 Backend Setup
+⚙️ ASP.NET Core Services
+Navigate to the ASP.NET Core backend directory:
+
+bash
+Copy
+cd backend-dotnet
+Restore dependencies and run the application:
+
+bash
+Copy
+dotnet restore
+dotnet run
+☕ Spring Boot Services
+Navigate to the Spring Boot backend directory:
+
+bash
+Copy
+cd backend-springboot
+Run the application using Maven:
+
+bash
+Copy
+./mvnw spring-boot:run
+🎨 Frontend Setup
+Navigate to the frontend directory:
+
+bash
+Copy
+cd frontend
+Install dependencies and start the development server:
+
+bash
+Copy
+npm install
+npm start
+🚀 Deployment
+To deploy the application using Docker:
+
+Build and run the Docker containers:
+
+bash
+Copy
+docker-compose up --build
