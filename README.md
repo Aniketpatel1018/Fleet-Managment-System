@@ -58,3 +58,25 @@ Make sure you have the following installed before proceeding:
 ```sh
 git clone https://github.com/yourusername/fleeman.git
 cd fleeman
+
+
+
+## 🔧 Backend Setup
+⚙ ASP.NET Core Services 
+```sh
+cd backend-dotnet
+dotnet restore
+dotnet run
+
+## ☕ Spring Boot Services
+
+```sh
+cd backend-java
+./mvnw spring-boot:run
+
+## 🎨 React Frontend
+
+```sh
+cd frontend
+npm install
+npm start
