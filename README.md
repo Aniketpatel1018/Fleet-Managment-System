@@ -34,3 +34,37 @@ FLEEMAN is a microservices-based application designed for efficient vehicle rese
 ### 🚀 DevOps:
 - 🐳 **Docker for containerization**
 - 🔄 **GitHub Actions for CI/CD automation**
+
+# 🛠 Installation & Setup  
+
+## 📌 Prerequisites:  
+- 🔵 **Node.js** (for ⚛ React.js frontend)  
+- 🛠 **.NET SDK** (for 🔷 ASP.NET Core services)  
+- ☕ **Java 17+** (for 🌿 Spring Boot services)  
+- 🛢 **MySQL Server**  
+
+## 📥 Clone the Repository:  
+```sh
+git clone https://github.com/yourusername/fleeman.git
+cd fleeman
+🔧 Backend Setup
+⚙ ASP.NET Core Services
+sh
+Copy
+Edit
+cd backend-dotnet
+dotnet restore
+dotnet run
+☕ Spring Boot Services
+sh
+Copy
+Edit
+cd backend-java
+./mvnw spring-boot:run
+🎨 React Frontend
+sh
+Copy
+Edit
+cd frontend
+npm install
+npm start
